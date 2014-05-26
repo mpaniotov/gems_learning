@@ -31,6 +31,13 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 gem 'unicorn'
 gem 'pg'
+gem 'rack-handlers'
+gem 'haml-rails'
+
+group :development do
+  gem "capistrano"
+  gem "rvm-capistrano"
+end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

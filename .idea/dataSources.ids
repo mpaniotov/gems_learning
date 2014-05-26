@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails UnicornNginx: development" uuid="6b4c6bdd-80c6-44a0-a853-dabd1417f1c2">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails UnicornNginx: test" uuid="b8c74241-5a5f-4994-84e4-4711b2dfb0ee">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails UnicornNginx: production" uuid="e7bfab95-53e4-4075-adfe-853888bfebad">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3181252007">
+    <data-source source="LOCAL" name="Rails UnicornNginx: development" uuid="6b4c6bdd-80c6-44a0-a853-dabd1417f1c2">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:unicornnginx_development</jdbc-url>
+      <user-name>paniotov</user-name>
+      <user-password>dfcbdf98df9bdf9adf9edf9bdf93df93df98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails UnicornNginx: test" uuid="b8c74241-5a5f-4994-84e4-4711b2dfb0ee">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:unicornnginx_test</jdbc-url>
+      <user-name>paniotov</user-name>
+      <user-password>dfcbdf98df9bdf9adf9edf9bdf93df93df98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails UnicornNginx: production" uuid="e7bfab95-53e4-4075-adfe-853888bfebad">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/unicornnginx_production</jdbc-url>
+      <user-name>paniotov</user-name>
+      <user-password>dfcbdf98df9bdf9adf9edf9bdf93df93df98</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

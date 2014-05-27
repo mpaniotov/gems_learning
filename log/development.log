@@ -1716,3 +1716,1941 @@ Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 09:34:20 +0300
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 09:34:20 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:03 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 578ms (Views: 546.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:04 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:04 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:04 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:04 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:05 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:17 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 351ms (Views: 349.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:18 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 159ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:24 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:35 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 423ms (Views: 421.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:36 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:43 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 397ms (Views: 395.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:44 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:46 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:47 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:48 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:24:49 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:24:57 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 422ms
+
+ActionView::Template::Error ([stdin]:12:3: error: unexpected indentation
+  )
+  ^
+  (in /home/paniotov/ruby/UnicornNginx/app/assets/javascripts/tests.js.coffee)):
+    3:   %head
+    4:     %title Unicornnginx
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:   %body
+    9:     = yield
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___4268053025400417433_39580760'
+
+
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:25:09 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 374ms (Views: 372.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:10 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:25:25 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 371ms (Views: 369.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:26 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:29 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 399ms (Views: 396.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:39 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:40 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:25:56 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 374ms (Views: 373.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:25:57 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 340ms (Views: 338.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:26:18 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:26:59 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:27:00 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:28:04 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 367ms (Views: 364.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:05 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 366ms (Views: 363.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:28:50 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:29:42 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 472ms (Views: 469.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:43 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:29:50 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 385ms (Views: 383.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:51 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:29:55 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 387ms (Views: 385.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:21 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:30:35 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 407ms (Views: 405.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:30:36 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 354ms (Views: 352.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:17 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:31:23 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:31:24 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:32:25 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 309ms (Views: 307.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:26 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 347ms (Views: 345.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:32:57 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:33:43 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 393ms (Views: 387.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:33:44 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:34:01 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 392ms
+
+ActionView::Template::Error ([stdin]:11:33: error: unexpected title
+      t='<h2>'+'this.model.get('title')'+'</h2>'
+                                ^^^^^
+  (in /home/paniotov/ruby/UnicornNginx/app/assets/javascripts/tests.js.coffee)):
+    3:   %head
+    4:     %title Unicornnginx
+    5:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    6:     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    7:     = csrf_meta_tags
+    8:   %body
+    9:     = yield
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___4268053025400417433_39280020'
+
+
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/paniotov/.rvm/gems/ruby-2.1.2@UnicornNginx/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:34:07 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 373ms (Views: 371.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:08 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:34:27 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 350ms (Views: 348.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:34:28 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:35:43 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:35:44 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:36:33 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:36:34 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:43:56 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 356ms (Views: 354.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:43:57 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 341ms (Views: 339.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:11 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 360ms (Views: 358.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:44:41 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:45:56 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 427ms (Views: 425.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:45:57 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:46:05 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 782ms (Views: 779.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:07 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 444ms (Views: 442.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:20 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:46:36 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 472ms (Views: 470.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:37 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 356ms (Views: 354.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:46:57 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:48:09 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 391ms (Views: 388.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:10 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 363ms (Views: 361.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:41 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:48:53 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 395ms (Views: 393.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:48:54 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:49:14 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 404ms (Views: 402.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:15 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:49:30 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 381ms (Views: 379.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:49:31 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:51:10 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 362ms (Views: 360.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:11 +0300
+
+
+Started GET "/tests" for 127.0.0.1 at 2014-05-27 11:51:20 +0300
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 347ms (Views: 345.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tests.css?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/backbone_rails_sync.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+
+
+Started GET "/assets/backbone/unicornnginx.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+Started GET "/assets/backbone_datalink.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/tests.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 11:51:21 +0300

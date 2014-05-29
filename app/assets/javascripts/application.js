@@ -14,8 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require underscore
+//= require hamlcoffee
+//= require_tree ./templates
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require backbone/unicornnginx
+
 //= require_tree .

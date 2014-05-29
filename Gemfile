@@ -14,6 +14,11 @@ gem 'rack-handlers'
 gem 'haml-rails'
 gem 'rails-backbone'
 
+gem 'haml_coffee_assets', git: "https://github.com/netzpirat/haml_coffee_assets"
+gem 'execjs'
+gem 'jasmine-rails'
+
+
 group :development do
   gem 'spring'
   gem 'capistrano'

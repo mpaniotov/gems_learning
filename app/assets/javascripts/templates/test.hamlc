@@ -1,0 +1,4 @@
+%span.album-title
+  <%= title %>
+%span.artist-name
+  <%= artist %>

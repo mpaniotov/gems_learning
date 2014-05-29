@@ -4,3 +4,22 @@
   %button
     test
 .back
+#container
+
+
+%script{ type: 'text/template', id: 'library-template' }
+  %h1
+    Music Library
+  %ul.albums
+
+%script{ type: 'text/template', id: 'album-template' }
+
+  %span.album-title
+    <%= title %>
+  %span.artist-name
+    <%= artist %>
+  %ol.tracks
+    <% _.each(tracks, function(track) { %>
+    %li
+      <%= track.title%></li>
+    <% }); %>

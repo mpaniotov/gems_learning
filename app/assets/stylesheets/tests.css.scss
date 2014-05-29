@@ -4,3 +4,27 @@
 .album-title {
   color:grey;
 }
+.albums {
+  list-style: none;
+}
+.playlist .album .queue.add {
+  display: none;
+}
+.library .album .queue.remove {
+  display: none;
+}
+
+.library .album .tracks {
+  display: none;
+}
+.album button.queue {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}

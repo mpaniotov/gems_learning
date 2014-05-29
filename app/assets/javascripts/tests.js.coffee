@@ -4,90 +4,8 @@
 
 
 $(document).ready ->
-#  class TestModel extends Backbone.Model
-#
-#  testModelInst = new TestModel(title: "titletest")
-#  class TestView extends Backbone.View
-#    el:$("body")
-#    events:
-#      'click #but_2': 'showAlert'
-#    showAlert:->
-#      alert('cliked on but_2')
-#      return
-#
-#
-#    render: ->
-#      t = '<h2>'+@model.get('title')+'</h2>'+
-#      '<button id="but_2" type="submit">click</button>'
-#
-#      $('.back').html t
-#
-#  testViewInst = new TestView(model: testModelInst)
-#  testViewInst.render()
 
-
-
-
-#  object = {}
-#  _.extend object, Backbone.Events
-#  object.on "click #button", (msg) ->
-#    alert "Сработало " + msg
-#    return
-#
-#  object.trigger "alert", "событие"
-
-#  Sidebar = Backbone.Model.extend(promptColor: ->
-#    cssColor = prompt("Пожалуйста, введите CSS-цвет:")
-#    @set color: cssColor
-#    return
-#  )
-##  window.sidebar = new Sidebar
-#  sidebar.on "change:color", (model, color) ->
-#    $("body").css background: color
-#    return
-#
-#  sidebar.set color: "white"
-#  sidebar.promptColor()
-  # Create a model for the services
-#  class Service extends Backbone.Model
-#
-#  class ServiceList extends Backbone.Collection
-#    model: Service
-#
-#  testModelInst = new ServiceList([
-#    new Service(
-#      title: "web development"
-#      price: 200
-#    )
-#    new Service(
-#      title: "web design"
-#      price: 250
-#    )
-#    new Service(
-#      title: "photography"
-#      price: 100
-#    )
-#    new Service(
-#      title: "coffee drinking"
-#      price: 10
-#    )
-#  ])
-#  console.log(testModelInst)
-#
-#  class TestView extends Backbone.View
-#    render: ->
-#      p = '<h2>'+@model.get('title')+'</h2>'+
-#      '<button id="but_2" type="submit">click</button>'
-#
-#      $('.back').html p
-#
-#  testViewInst = new TestView(model: testModelInst)
-#  testViewInst.render()
-#  console.log(testViewInst)
-#
-#
-
-  Album = Backbone.Model.extend
+  window.Album = Backbone.Model.extend
     isLastTrack: (index) ->
       index >= @get("tracks").length - 1
 
@@ -114,7 +32,6 @@ $(document).ready ->
 
 
 
-
   AlbumView = Backbone.View.extend
     tagName: 'li'
     className: 'album'
@@ -129,7 +46,15 @@ $(document).ready ->
       $(@el).html renderedContent
       this
 
-  LibraryAlbumView = AlbumView.extend()
+  LibraryAlbumView = AlbumView.extend
+    events: ->
+      'click .queue.add':'select'
+
+    select: ->
+      @collection.trigger('select', @model)
+      console.log 'Triggered select',@model
+
+  PlaylistAlbumView = AlbumView.extend
 
   LibraryView = Backbone.View.extend
     tagName: 'section'
@@ -149,19 +74,98 @@ $(document).ready ->
         $albums.append(view.render().el)
       this
 
-
-
-#  albumView = new AlbumView(model: album)
-#  $('#container').append albumView.render().el
-
-#  alert 'e'
-#  album.set({artist:'title'})
-
-
   library = new Albums()
-#  albums.fetch().then =>
-#    console.log albums.models
-
-  libraryView = new LibraryView(collection: library)
-  $('#container').append(libraryView.render().el)
+  player = new Player()
   library.fetch()
+
+  BackboneTunes = Backbone.Router.extend
+    routes:
+      '':'home'
+      'blank':'blank'
+    initialize: ->
+      @libraryView = new LibraryView(collection: library)
+
+    home: ->
+      $container = $('#container')
+      $container.empty()
+      $container.append(@libraryView.render().el)
+
+    blank: ->
+      $('#container').empty()
+      $('#container').text('blank')
+
+
+  App = new BackboneTunes()
+  Backbone.history.start()
+
+  window.Playlist = new Albums.extend
+    isLastAlbum: (index) ->
+      index is (@models.length - 1)
+
+    isFirstAlbum: (index) ->
+      index is 0
+
+  window.Player = Backbone.Model.extend
+    defaults:
+      'currentAlbumIndex':0
+      'currentTrackIndex':0
+      'state':'stop'
+
+    initialize: ->
+      @playlist = new Playlist
+
+    play: ->
+      @set('state','play')
+
+    pause: ->
+      @set('state','pause')
+
+    isPlaying: ->
+      @get('state') is 'play'
+
+    isStopped: ->
+      not @isPlaying()
+
+    currentAlbum: ->
+      @playlist.at(@get('currentAlbumIndex'))
+
+    currentTrackUrl: ->
+      album = @currentAlbum
+      album.trackUrlAtIndex(@get('currentTrackIndex'))
+
+    nextTrack: ->
+      currentTrackIndex = @get("currentTrackIndex")
+      currentAlbumIndex = @get("currentAlbumIndex")
+      lastModelIndex = 0
+      if @currentAlbum().isLastTrack(currentTrackIndex)
+        if @playList.isLastAlbum(currentAlbumIndex)
+          @set currentAlbumIndex: 0
+          @set currentTrackIndex: 0
+        else
+          @set currentAlbumIndex: currentAlbumindex + 1
+          @set currentTrackIndex: 0
+      else
+        @set currentTrackIndex: currentTrackIndex + 1
+      @logCurrentAlbumAndTrack()
+
+    prevTrack: ->
+      currentTrackIndex = @get("currentTrackIndex")
+      currentAlbumIndex = @get("currentAlbumIndex")
+      lastModelIndex = 0
+      if @currentAlbum().isFirstTrack(currentTrackIndex)
+        if @playList.isFirstAlbum(currentAlbumIndex)
+          lastModelIndex = @playlist.models.length - 1
+          @set currentAlbumIndex: lastModelIndex
+        else
+          @set currentAlbumIndex: currentAlbumindex - 1
+        lastTrackIndex = @currentAlbum().get("tracks").length - 1
+        @set currentTrackIndex: lastTrackIndex
+      else
+        @set currentTrackIndex: currentTrackIndex - 1
+      @logCurrentAlbumAndTrack()
+
+    logCurrentAlbumAndTrack: ->
+      console.log('Player'+@get('currentAlbumIndex')+':'+@get('currentTrackIndex'))
+
+
+

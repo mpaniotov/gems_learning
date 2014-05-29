@@ -1,9 +1,9 @@
-.hello
-  %h1
-    Hello world
-  %button
-    test
-.back
+-#.hello
+-#  %h1
+-#    Hello world
+-#  %button
+-#    test
+-#.back
 #container
 
 
@@ -13,12 +13,16 @@
   %ul.albums
 
 %script{ type: 'text/template', id: 'album-template' }
-
-  %span.album-title
-    <%= title %>
+  %button.queue.add
+    %img{src: '/img/add.png'}
+  %button.queue.remove
+    %img{src: '/img/remove.png'}
   %span.artist-name
     <%= artist %>
-  %ol.tracks
+  %span.album-title
+    <%= title %>
+
+  -#%ol.tracks
     <% _.each(tracks, function(track) { %>
     %li
       <%= track.title%></li>

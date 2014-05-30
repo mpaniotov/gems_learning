@@ -1,0 +1,2 @@
+module BraintreesHelper
+end

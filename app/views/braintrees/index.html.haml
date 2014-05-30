@@ -1,1 +1,9 @@
-=ENV['MERCHANT_ID']
+%span.label
+  Transaction ID:
+%span.trans
+  =@result.transaction.id
+%br
+%span.label
+  Transaction Status:
+%span.trans
+  =@result.transaction.status

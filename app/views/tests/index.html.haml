@@ -22,8 +22,22 @@
   %span.album-title
     <%= title %>
 
-  -#%ol.tracks
+  %ol.tracks
     <% _.each(tracks, function(track) { %>
     %li
       <%= track.title%></li>
     <% }); %>
+
+%script{ type: 'text/template', id: 'playlist-template' }
+  %h1
+    Playlist
+  %nav
+    %button.control.play
+      Play
+    %button.control.pause
+      Pause
+    %button.control.prev
+      Prev
+    %button.control.next
+      Next
+  %ul.albums

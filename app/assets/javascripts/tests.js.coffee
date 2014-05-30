@@ -28,18 +28,13 @@ $(document).ready ->
       title: "Track A"
   )
 
-  console.log album.get('title')
-
-
-
   AlbumView = Backbone.View.extend
+    template: _.template($("#album-template").html())
     tagName: 'li'
     className: 'album'
     initialize: ->
       _.bindAll this, 'render'
-      # when set() is called for any attribute
       @model.bind "change", @render
-      @template = _.template($("#album-template").html());
 
     render: ->
       renderedContent = @template(@model.toJSON())
@@ -52,9 +47,52 @@ $(document).ready ->
 
     select: ->
       @collection.trigger('select', @model)
-      console.log 'Triggered select',@model
 
-  PlaylistAlbumView = AlbumView.extend
+
+  PlaylistAlbumView = AlbumView.extend(
+    events:
+      'click .queue.remove': 'removeFromPlaylist'
+
+    initialize: ->
+      _.bindAll this, 'render', 'remove'
+      @model.bind 'remove',@remove
+
+    removeFromPlaylist: ->
+      @options.playlist.remove(@model)
+  )
+
+
+  PlaylistView = Backbone.View.extend
+    tagName: 'section'
+    className: 'playlist'
+
+    initialize: ->
+      _.bindAll this, 'render','renderAlbum', 'queueAlbum'
+      @template = _.template($('#playlist-template').html())
+      @collection.bind('reset', @render)
+      @collection.bind('add', @renderAlbum)
+
+      @player = @options.player
+
+      @library = @options.library
+      @library.bind('select',@queueAlbum)
+
+    render: ->
+      $(@el).html(@template(@player.toJSON()))
+
+      @$('button.play').toggle(@player.isStopped())
+      @$('button.pause').toggle(@player.isPlaying())
+      this
+
+    renderAlbum: (album)->
+      view = new PlaylistAlbumView(model: album, player: @player, playlist: @collection)
+      console.log view
+      @$('ul').append(view.render().el)
+
+
+    queueAlbum: (album)->
+      @collection.add(album)
+
 
   LibraryView = Backbone.View.extend
     tagName: 'section'
@@ -74,38 +112,24 @@ $(document).ready ->
         $albums.append(view.render().el)
       this
 
-  library = new Albums()
-  player = new Player()
+
+  library = new Albums
+
   library.fetch()
 
-  BackboneTunes = Backbone.Router.extend
-    routes:
-      '':'home'
-      'blank':'blank'
-    initialize: ->
-      @libraryView = new LibraryView(collection: library)
-
-    home: ->
-      $container = $('#container')
-      $container.empty()
-      $container.append(@libraryView.render().el)
-
-    blank: ->
-      $('#container').empty()
-      $('#container').text('blank')
 
 
-  App = new BackboneTunes()
-  Backbone.history.start()
 
-  window.Playlist = new Albums.extend
+
+
+  Playlist = Albums.extend
     isLastAlbum: (index) ->
       index is (@models.length - 1)
 
     isFirstAlbum: (index) ->
       index is 0
 
-  window.Player = Backbone.Model.extend
+  Player = Backbone.Model.extend
     defaults:
       'currentAlbumIndex':0
       'currentTrackIndex':0
@@ -142,7 +166,7 @@ $(document).ready ->
           @set currentAlbumIndex: 0
           @set currentTrackIndex: 0
         else
-          @set currentAlbumIndex: currentAlbumindex + 1
+          @set currentAlbumIndex: currentAlbumIndex + 1
           @set currentTrackIndex: 0
       else
         @set currentTrackIndex: currentTrackIndex + 1
@@ -153,11 +177,11 @@ $(document).ready ->
       currentAlbumIndex = @get("currentAlbumIndex")
       lastModelIndex = 0
       if @currentAlbum().isFirstTrack(currentTrackIndex)
-        if @playList.isFirstAlbum(currentAlbumIndex)
+        if @playlist.isFirstAlbum(currentAlbumIndex)
           lastModelIndex = @playlist.models.length - 1
           @set currentAlbumIndex: lastModelIndex
         else
-          @set currentAlbumIndex: currentAlbumindex - 1
+          @set currentAlbumIndex: currentAlbumIndex - 1
         lastTrackIndex = @currentAlbum().get("tracks").length - 1
         @set currentTrackIndex: lastTrackIndex
       else
@@ -167,5 +191,26 @@ $(document).ready ->
     logCurrentAlbumAndTrack: ->
       console.log('Player'+@get('currentAlbumIndex')+':'+@get('currentTrackIndex'))
 
+  player = new Player
+#
+  BackboneTunes = Backbone.Router.extend
+    routes:
+      '':'home'
+      'blank':'blank'
+    initialize: ->
+      @playlistView = new PlaylistView(collection: player.playlist, player: player, library: library)
+      @libraryView = new LibraryView(collection: library)
+
+    home: ->
+      $container = $('#container')
+      $container.empty()
+      $container.append(@playlistView.render().el)
+      $container.append(@libraryView.render().el)
+
+    blank: ->
+      $('#container').empty()
+      $('#container').text('blank')
 
 
+  App = new BackboneTunes()
+  Backbone.history.start()

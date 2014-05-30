@@ -1,11 +1,52 @@
 // Place all the styles related to the tests controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+.album {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin: 0;
+  padding: 1em 2em;
+}
 .album-title {
   color:grey;
 }
+.album .artist-name {
+}
+
+.album .tracks {
+  margin: 0;
+  padding: .5em 0 0 1.5em;
+}
+
+.album button.queue {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
 .albums {
   list-style: none;
+  padding: 0 2%;
 }
 .playlist .album .queue.add {
   display: none;
@@ -27,4 +68,65 @@
   margin: 0;
   background: transparent;
   cursor: pointer;
+}
+
+.playlist {
+  position: absolute;
+  width: 30%;
+  padding: 0 3%;
+  min-height: 100%;
+  color: #eee;
+  background-color: #333;
+}
+
+nav {
+  width: 180px;
+  margin: auto;
+  padding: 0;
+}
+
+nav button.control {
+  text-indent: -9999px;
+  width: 55px;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+nav button.play {
+  background: url('/img/control_play.png') center no-repeat;
+}
+
+nav button.play:hover {
+  background: url('/img/control_play_hover.png') center no-repeat;
+}
+
+nav button.pause {
+  background: url('/img/control_pause.png') center no-repeat;
+}
+
+nav button.pause:hover {
+  background: url('/img/control_pause_hover.png') center no-repeat;
+}
+
+nav button.prev {
+  background: url('/img/control_start.png') center no-repeat;
+}
+
+nav button.prev:hover {
+  background: url('/img/control_start_hover.png') center no-repeat;
+}
+
+nav button.next {
+  background: url('/img/control_end.png') center no-repeat;
+}
+
+nav button.next:hover {
+  background: url('/img/control_end_hover.png') center no-repeat;
+}
+.library {
+  margin-left: 36%;
+  padding: 0.1em 2%;
 }

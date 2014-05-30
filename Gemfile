@@ -17,7 +17,7 @@ gem 'rails-backbone'
 gem 'haml_coffee_assets', git: "https://github.com/netzpirat/haml_coffee_assets"
 gem 'execjs'
 gem 'jasmine-rails'
-
+gem 'pjax_rails'
 
 group :development do
   gem 'spring'

@@ -9,4 +9,6 @@ class TestsController < ApplicationController
       format.json { render 'public/albums.json' }
     end
   end
+
+
 end

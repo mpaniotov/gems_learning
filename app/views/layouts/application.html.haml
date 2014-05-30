@@ -8,4 +8,9 @@
     %script{:src => "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"}
     = csrf_meta_tags
   %body
-    = yield
+    %div
+      / This will not be touched on PJAX updates
+      = Time.now
+    .container#pjax-container
+      = yield
+

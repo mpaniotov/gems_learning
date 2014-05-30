@@ -20,5 +20,8 @@
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require backbone/unicornnginx
+//= require jquery.pjax
 
-//= require_tree .
+//= require tests
+//= require pjax_test
+

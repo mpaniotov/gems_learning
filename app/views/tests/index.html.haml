@@ -1,11 +1,4 @@
--#.hello
--#  %h1
--#    Hello world
--#  %button
--#    test
--#.back
 #container
-
 
 %script{ type: 'text/template', id: 'library-template' }
   %h1
@@ -41,3 +34,10 @@
     %button.control.next
       Next
   %ul.albums
+
+%br
+= link_to 'page1',page1_path
+%br
+= link_to 'page2',page2_path
+%br
+= link_to 'page3',page3_path

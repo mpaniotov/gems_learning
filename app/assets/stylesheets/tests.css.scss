@@ -130,3 +130,16 @@ nav button.next:hover {
   margin-left: 36%;
   padding: 0.1em 2%;
 }
+
+.playlist .album.current {
+  background-color: #383838;
+}
+
+.playlist .album.current .tracks .current {
+  background-color: #995599;
+}
+
+.playlist .album .tracks li {
+  font-style: normal;
+  padding: .3em;
+}

@@ -54,8 +54,30 @@ $(document).ready ->
       'click .queue.remove': 'removeFromPlaylist'
 
     initialize: ->
-      _.bindAll this, 'render', 'remove'
-      @model.bind 'remove',@remove
+      _.bindAll this, 'render', 'remove', 'updateState', 'updateTrack'
+      @player = @options.player
+      @player.bind('change:state', @updateState)
+      @player.bind('change:currentTrackIndex', @updateTrack)
+
+      @model.bind('remove',@remove,@updateState)
+
+    render: ->
+      $(@el).html @template(@model.toJSON())
+      @updateTrack()
+      this
+
+    updateState: ->
+      isAlbumCurrent = (@player.currentAlbum() is @model)
+      $(@el).toggleClass "current", isAlbumCurrent
+
+    updateTrack: ->
+      isAlbumCurrent = (@player.currentAlbum() is @model)
+      if isAlbumCurrent
+        currentTrackIndex = @player.get("currentTrackIndex")
+        @$("li").each (index, el) ->
+          $(el).toggleClass "current", index is currentTrackIndex
+          return
+      @updateState()
 
     removeFromPlaylist: ->
       @options.playlist.remove(@model)
@@ -63,16 +85,25 @@ $(document).ready ->
 
 
   PlaylistView = Backbone.View.extend
+    template: _.template($('#playlist-template').html())
     tagName: 'section'
     className: 'playlist'
 
+    events:
+      'click .play':'play'
+      'click .pause':'pause'
+      'click .next':'nextTrack'
+      'click .prev':'prevTrack'
+
     initialize: ->
-      _.bindAll this, 'render','renderAlbum', 'queueAlbum'
-      @template = _.template($('#playlist-template').html())
+      _.bindAll this, 'render','renderAlbum', 'queueAlbum', 'updateState', 'updateTrack'
       @collection.bind('reset', @render)
       @collection.bind('add', @renderAlbum)
 
       @player = @options.player
+      @player.bind('change:state', @updateState)
+      @player.bind('change:currentTrackIndex', @updateTrack)
+      @createAudio()
 
       @library = @options.library
       @library.bind('select',@queueAlbum)
@@ -84,11 +115,37 @@ $(document).ready ->
       @$('button.pause').toggle(@player.isPlaying())
       this
 
+    createAudio: ->
+      @audio = new Audio()
+
     renderAlbum: (album)->
       view = new PlaylistAlbumView(model: album, player: @player, playlist: @collection)
       console.log view
       @$('ul').append(view.render().el)
 
+    updateState: ->
+      @updateTrack()
+      @$('button.play').toggle(@player.isStopped())
+      @$('button.pause').toggle(@player.isPlaying())
+
+    updateTrack: ->
+      @audio.src = @player.currentTrackUrl()
+      if @player.get("state") is "play"
+        @audio.play()
+      else
+      @audio.pause()
+
+    play: ->
+      @player.play()
+
+    pause: ->
+      @player.pause()
+
+    nextTrack: ->
+      @player.nextTrack()
+
+    prevTrack: ->
+      @player.prevTrack()
 
     queueAlbum: (album)->
       @collection.add(album)
@@ -154,8 +211,11 @@ $(document).ready ->
       @playlist.at(@get('currentAlbumIndex'))
 
     currentTrackUrl: ->
-      album = @currentAlbum
-      album.trackUrlAtIndex(@get('currentTrackIndex'))
+      album = @currentAlbum()
+      if album
+        album.trackUrlAtIndex(@get('currentTrackIndex'))
+      else
+        null
 
     nextTrack: ->
       currentTrackIndex = @get("currentTrackIndex")
@@ -192,7 +252,7 @@ $(document).ready ->
       console.log('Player'+@get('currentAlbumIndex')+':'+@get('currentTrackIndex'))
 
   player = new Player
-#
+
   BackboneTunes = Backbone.Router.extend
     routes:
       '':'home'

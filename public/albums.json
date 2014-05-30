@@ -1,68 +1,68 @@
 [{
-    "title": "Bound - Zen Bound Ingame Music",
-    "artist": "Ghost Monkey",
+    "title": "Model",
+    "artist": "Okean Elzy",
     "tracks": [{
-        "title": "Care",
-        "url": "/music/blue.mp3"
+        "title": "911",
+        "url": "music/2001 - Model/911.mp3"
     },
         {
-            "title": "Rope and Wood",
-            "url": "/music/jazz.mp3"
+            "title": "Ya Do Tebe",
+            "url": "/home/paniotov/Музыка/2001 - Model/Ya Do Tebe.mp3"
         },
         {
-            "title": "Problem Solvent",
-            "url": "/music/minimalish.mp3"
+            "title": "Dryg part.1",
+            "url": "/home/paniotov/Музыка/2001 - Model/Dryg part.1.mp3"
         },
         {
-            "title": "Unpaint My Skin",
-            "url": "/music/slower.mp3"
+            "title": "Dryg part.2",
+            "url": "/home/paniotov/Музыка/2001 - Model/Dryg part.2.mp3"
         },
         {
-            "title": "Nostalgia",
-            "url": "/music/blue.mp3"
+            "title": "Ty Sobi Sama",
+            "url": "/home/paniotov/Музыка/2001 - Model/Ty Sobi Sama.mp3"
         },
         {
-            "title": "Interludum",
-            "url": "/music/jazz.mp3"
+            "title": "Kvitka",
+            "url": "/home/paniotov/Музыка/2001 - Model/Kvitka.mp3"
         },
         {
-            "title": "Grind",
-            "url": "/music/minimalish.mp3"
+            "title": "Vstavaj",
+            "url": "/home/paniotov/Музыка/2001 - Model/Vstavaj.mp3"
         },
         {
-            "title": "Diagrams",
-            "url": "/music/slower.mp3"
+            "title": "Isn't It Son",
+            "url": "/home/paniotov/Музыка/2001 - Model/Isn't It Son.mp3"
         },
         {
-            "title": "Hare",
-            "url": "/music/blue.mp3"
+            "title": "Coco Chanel",
+            "url": "/home/paniotov/Музыка/2001 - Model/Coco Chanel.mp3"
         },
         {
-            "title": "Carefree",
-            "url": "/music/jazz.mp3"
+            "title": "Syogodni",
+            "url": "/home/paniotov/Музыка/2001 - Model/Syogodni.mp3"
         },
         {
-            "title": "Tunnel At The End Of Light",
-            "url": "/music/minimalish.mp3"
+            "title": "Vulytsya (Mozhe Vse Ne Tak)",
+            "url": "/home/paniotov/Музыка/2001 - Model/Vulytsya (Mozhe Vse Ne Tak).mp3"
         }]
 },
     {
-        "title": "Where the Earth Meets the Sky",
-        "artist": "Tom Heasley",
+        "title": "Collection",
+        "artist": "Aerosmith",
         "tracks": [{
-            "title": "Ground Zero",
-            "url": "/music/blue.mp3"
+            "title": "I Don't Want To Miss A Thing",
+            "url": "/home/paniotov/Музыка/Aerosmith/01 - I Don't Want To Miss A Thing.mp3"
         },
             {
-                "title": "Western Sky",
-                "url": "/music/jazz.mp3"
+                "title": "Angel",
+                "url": "/home/paniotov/Музыка/Aerosmith/02 - Angel.mp3"
             },
             {
-                "title": "Monterey Bay",
-                "url": "/music/minimalish.mp3"
+                "title": "Dream On",
+                "url": "/home/paniotov/Музыка/Aerosmith/16 - Dream On.mp3"
             },
             {
-                "title": "Where the Earth Meets the Sky",
-                "url": "/music/slower.mp3"
+                "title": "Cryin'",
+                "url": "/home/paniotov/Музыка/Aerosmith/06 - Cryin'.mp3"
             }]
     }]

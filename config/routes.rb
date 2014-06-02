@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   get 'page2' => 'pjax#page2'
   get 'page3' => 'pjax#page3'
 
+  get 'customer_create' => 'braintrees#customer_create'
+
 end

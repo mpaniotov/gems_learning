@@ -1,0 +1,27 @@
+=link_to 'New transaction',braintrees_path
+=link_to 'Create new customer',customer_create_path
+%br
+%span.label
+  Customer ID:
+%span.trans
+  =@result.customer.id
+%br
+%span.label
+  Customer Firstname:
+%span.trans
+  =@result.customer.credit_cards[0].billing_address.first_name
+%br
+%span.label
+  Customer Lastname:
+%span.trans
+  =@result.customer.credit_cards[0].billing_address.last_name
+%br
+%span.label
+  Customer billing_address:
+%span.trans
+  =@result.customer.credit_cards[0].billing_address.street_address
+%br
+%span.label
+  Customer address:
+%span.trans
+  =@result.customer.addresses

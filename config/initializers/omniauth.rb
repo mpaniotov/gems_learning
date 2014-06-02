@@ -5,4 +5,5 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :github, ENV["GITHUB_CLIENT_ID"], ENV["GITHUB_CLIENT_SECRET"], scope: "user:email,user:follow"
   provider :google_oauth2, ENV["GOOGLE_CLIENT_ID"], ENV["GOOGLE_CLIENT_SECRET"]
   provider :twitter, ENV["TWITTER_CLIENT_ID"], ENV["TWITTER_CLIENT_SECRET"]
+  provider :yahoo, ENV["YAHOO_CLIENT_ID"], ENV["YAHOO_CLIENT_SECRET"]
 end

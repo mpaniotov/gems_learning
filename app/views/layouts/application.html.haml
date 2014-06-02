@@ -16,9 +16,11 @@
         = link_to "Sign out", signout_path, id: "sign_out",'data-skip-pjax' => true
       - else
         = link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in"
+        = link_to "Sign in with Github", "/auth/github", id: "sign_in"
     %div
       / This will not be touched on PJAX updates
       = Time.now
     .container#pjax-container
       = yield
+
 

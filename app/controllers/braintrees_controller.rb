@@ -1,4 +1,5 @@
 class BraintreesController < ApplicationController
+
   def index
     @result = Braintree::Transaction.sale(
         :amount => "1000.00",

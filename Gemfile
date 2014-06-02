@@ -21,6 +21,12 @@ gem 'pjax_rails'
 gem 'braintree-rails'
 gem 'dotenv-rails'
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-twitter'
+
 group :development do
   gem 'spring'
   gem 'capistrano'

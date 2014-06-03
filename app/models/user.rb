@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  acts_as_messageable
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
       user.provider = auth.provider
@@ -10,5 +12,13 @@ class User < ActiveRecord::Base
       end
       user.save!
     end
+  end
+
+  def mailboxer_email(object)
+    #Check if an email should be sent for that object
+    #if true
+    return "elteck@mail.ru"
+    #if false
+    #return nil
   end
 end

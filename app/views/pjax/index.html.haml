@@ -1,6 +1,18 @@
+-require 'embedly'
+-require 'json'
 %br
 = link_to 'page1',page1_path
 %br
 = link_to 'page2',page2_path
 %br
 = link_to 'page3',page3_path
+%br
+-api = Embedly::API.new :key => '902936351827432cb716a7f3d632fbd4'
+-obj = api.oembed :url => 'https://www.youtube.com/watch?v=jT5ONEKAEyQ'
+=obj[0]
+%br
+=obj[0].html.html_safe
+-#http://www.1zoom.net/big2/20/162539-melisenta.jpg?m=1
+-#http://coub.com/view/1x6x5
+
+

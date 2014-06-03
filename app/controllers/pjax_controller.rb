@@ -1,5 +1,6 @@
 class PjaxController < ApplicationController
   include ApplicationHelper
+  before_filter :authenticate_user!, :only => :token
   def index
 
   end

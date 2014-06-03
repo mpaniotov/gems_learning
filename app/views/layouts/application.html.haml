@@ -6,8 +6,8 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
     %script{:src => "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"}
+
     = csrf_meta_tags
-  %body
     #user-widget
       - if current_user
         Welcome
@@ -20,10 +20,17 @@
         = link_to "Sign in with Google", "/auth/google_oauth2"
         = link_to "Sign in with Twitter", "/auth/twitter"
         = link_to "Sign in with Yahoo", "/auth/yahoo"
+    = switch_user_select
+    = link_to User.last.email, "/switch_user?scope_identifier=user_#{User.last.id}"
+
+  %body
+
+
     %div
       / This will not be touched on PJAX updates
       = Time.now
     .container#pjax-container
       = yield
+
 
 

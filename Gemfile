@@ -27,7 +27,10 @@ gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-twitter'
 gem 'omniauth-yahoo'
-
+gem 'mailboxer'
+gem 'switch_user'
+gem 'devise'
+gem 'embedly'
 group :development do
   gem 'spring'
   gem 'capistrano'

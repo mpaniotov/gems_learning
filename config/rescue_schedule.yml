@@ -1,0 +1,5 @@
+every_two_minute_job:
+ cron: "/5 * * * * *"
+ class: SimpleJob
+ queue: high
+ description: “every two minute job”

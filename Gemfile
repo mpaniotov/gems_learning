@@ -14,7 +14,7 @@ gem 'rack-handlers'
 gem 'haml-rails'
 gem 'rails-backbone'
 
-gem 'haml_coffee_assets', git: "https://github.com/netzpirat/haml_coffee_assets"
+gem 'haml_coffee_assets', git: 'https://github.com/netzpirat/haml_coffee_assets'
 gem 'execjs'
 gem 'jasmine-rails'
 gem 'pjax_rails'
@@ -31,8 +31,12 @@ gem 'mailboxer'
 gem 'switch_user'
 gem 'devise'
 gem 'embedly'
+gem 'redis-rails'
+gem 'resque'
+gem 'resque-scheduler', '~> 3.0.0', :require => 'resque-scheduler'
+
 group :development do
-  gem 'spring'
+  #gem 'spring'
   gem 'capistrano'
   gem 'rvm-capistrano'
 end

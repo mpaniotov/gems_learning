@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :tests, only: :index
   resources :pjax, only: :index
   resources :braintrees, only: :index
+  resources :test_redis, only: :index
 
   get 'albums' => 'tests#getjson',:defaults => { :format => 'json' }
 

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'parser/yandex'
 
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)

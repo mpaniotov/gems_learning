@@ -39,6 +39,8 @@ gem 'nokogiri'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 
+gem 'rails_admin', '~> 0.6.2'
+
 group :development do
   #gem 'spring'
   gem 'capistrano'

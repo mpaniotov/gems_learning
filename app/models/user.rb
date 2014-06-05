@@ -24,7 +24,7 @@ class User < ActiveRecord::Base
 
   searchable do
     text :email
-    text :name
+    text :name, :stored => true
   end
 
 end

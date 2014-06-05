@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'parser/yandex'
+
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
 
   resources :tests, only: :index

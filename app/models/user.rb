@@ -21,4 +21,10 @@ class User < ActiveRecord::Base
     #if false
     #return nil
   end
+
+  searchable do
+    text :email
+    text :name
+  end
+
 end

@@ -34,6 +34,10 @@ gem 'embedly'
 gem 'redis-rails'
 gem 'resque'
 gem 'resque-scheduler', '~> 3.0.0', :require => 'resque-scheduler'
+gem 'nokogiri'
+
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 
 group :development do
   #gem 'spring'

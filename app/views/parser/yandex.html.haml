@@ -1,0 +1,6 @@
+%h1 Parser#yandex
+%p Find me in app/views/parser/yandex.html.haml
+%br
+-@search=User.search { fulltext 'Mihail' }
+= @search.results
+= @table.to_s.html_safe
